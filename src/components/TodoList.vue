@@ -1,13 +1,14 @@
 <template>
   <b-container>
-    <b-row :key="index" v-for="(todo, index) in todos" class="mt-2">
+    <b-row :key="index" v-for="(todo, index) in todos" class="mt-4">
       <b-col cols="6" :class="[{line: todo.complete}, 'text-left']">
         <h5>{{ todo.text }}</h5>
       </b-col>
       <b-col cols="6" class="text-right">
         <b-button
           @click="handleCompleteTodo(index)"
-          :variant="todo.complete ? '' : 'success'">
+          :variant="todo.complete ? '' : 'success'"
+          >
           {{ todo.complete ? '完了' : '未完了'}}
         </b-button>
         <b-button

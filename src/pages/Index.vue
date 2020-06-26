@@ -41,5 +41,8 @@
 </script>
 
 <style scoped>
-
+  h1{
+    width: 200px;
+    margin: 12px auto;
+  }
 </style>
