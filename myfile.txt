@@ -4,3 +4,6 @@ pull リモートリポジトリの内容を取得する
 
 HiromiSanui
 KeioUniversity
+
+HiromiSanui
+Flag CEO
